@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="winner.css">
+</head>
+<body>
+    <div class="winimg">
+        <div class="cup">
+
+            <img src="Vector (3).png" alt="">
+        </div>
+        <div class="stars">
+        <img src="Group 5.png" alt="hurray">
+    </div>
+    </div>
+
+    <div class="text">
+
+        <p id="heading"> H U R R A Y !!</p>
+        <p id="subtext">YOU WON THE GAME</p>
+    </div>
+
+    <div class="pabutton">
+   <a href="main.html">     <button id="pa"><b>PLAY  AGAIN</b></button></a>
+    </div>
+
+    <div class="gameru" id="myDiv" style="display: none;">
+        <center> <p>Game Rules</p></center>
+         <ul>
+             <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li><br>
+             <li>Agree ahead of time whether you'll count off "rock, paper, scissors, shoot" or just "rock, paper, scissors."</li><br>
+             <li>Use rock, paper scissors to settle minor decisions or simply play to pass the time.</li><br>
+             <li>If both players lay down the same hand, each player lays down another hand.</li>
+         </ul>
+         <div class="x" ><button id="closeBtn">X</button></div>
+     </div>
+    <div class="rulesbutton">
+        <button id="openBtn"><b>RULES</b></button>
+    </div>
+    <script >
+        
+        const openBtn = document.getElementById("openBtn");
+        const myDiv = document.getElementById("myDiv");
+        const closeBtn = document.getElementById("closeBtn");
+
+        openBtn.addEventListener("click", function() {
+            myDiv.style.display = "block";
+        });
+
+        closeBtn.addEventListener("click", function() {
+            myDiv.style.display = "none"; 
+        });
+    </script>
+
+    
+</body>
+</html>

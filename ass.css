@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek:wght@400;500;700&display=swap');
+
+
+body {
+    background-color: #8CC461;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .box {
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 710px;
+    height: 125px;
+    display: flex;
+    align-self: center;
+    margin-left: 100px;
+    margin-top: 70px;
+    gap: 350px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container p {
+    color: white;
+    font-weight: 600;
+    margin: 10px 0 0 10px;
+    font-size: 25px;
+    text-align: left;
+    
+  }
+  
+  .fm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+  }
+  
+  .fm .fc {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 110px;
+    height: 110px;
+  }
+  
+  .zero {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+  }
+  
+  #sc {
+    margin: 0;
+    font-family: Roboto;
+    color: #656565;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  
+  .picbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  .t1 {
+    display: flex;
+  }
+ 
+  .gameru
+  {
+    position: fixed;
+    bottom: 50px;
+    right: 35px;
+    border: 10px solid white;
+    border-radius: 15px;
+    background: #004429;
+    color: white;
+    font-size: 15px;
+    width: 310px;
+    height: 350px;
+
+}
+.gameru p
+{
+    font-size: 25px;
+}
+
+li::marker 
+{
+    color: yellow;
+}
+li
+{
+    list-style-type: square;
+}
+
+.x
+{
+ color: white;
+ background-color: red;
+ border: 5px solid white;
+ border-radius: 100%;
+ position: fixed;
+ right:15px;
+ padding: 0px 12px 0px 12px;
+ font-size: large;
+ font-family: dangrek;
+ top:285px;
+ cursor: pointer;
+
+}
+.btn
+{
+  position: fixed;
+  right:150px;
+  bottom:10px;
+  background-color:#8CC461 ; 
+  border: 1px solid ;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.randpands
+{
+  height: 350px;
+  width: 450px;
+  position: fixed;
+  bottom: 100px;
+  left: 550px;
+
+
+}
+.rock {
+border: 16px solid #0074B6;
+background-color: white;
+border-radius: 100%;
+height: 130px;
+width: 130px;
+position: fixed;
+cursor: pointer;
+
+
+}
+.paper{
+  border: 16px solid #BD00FF;
+  background-color: white;
+  border-radius: 100%;
+  height: 130px;
+  width: 130px;
+  position: fixed;
+  bottom: 115px;
+  left: 700px;
+  cursor: pointer;
+  padding:0 ;
+
+}
+.scissors {
+border: 16px solid #FFA943;
+background-color: white;
+border-radius: 100%;
+height: 130px;
+width: 130px;
+position: fixed;
+left:850px;
+cursor: pointer;
+
+}
+
+.line1 {
+  background-color: #000000A3;
+  border: 1px solid #000000A3;
+  height: 15px;
+  width: 200px;
+  position: absolute;
+  top: 40px;
+  left: 115px;
+}
+
+.line2 {
+  background-color: #000000A3;
+  border: 1px solid #000000A3;
+  height: 15px;
+  width: 200px;
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  transform: rotate(300deg) translateY(-50%) translateX(50%);
+
+}
+
+.line3
+{
+  background-color: #000000A3;
+  border: 1px solid #000000A3;
+  height: 15px;
+  width: 200px;
+  position: absolute;
+  bottom: 80px;
+  left: 70px;
+  transform: rotate(240deg) translateY(-50%) translateX(50%);
+  
+}
+
+.op1 .rock
+{
+  position: absolute;
+  left: 400px;
+  top: 400px;
+
+}
+.op2 .paper
+{
+  position: absolute;
+  left: 1000px;
+  top: 400px;
+
+}
+.btn3
+{
+  font-family: Roboto;
+  font-weight: 600;
+  size: 15px;
+  color: #6B6B6B;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px ;
+  width:175px;
+  height: 45px;
+  position: fixed;
+  right: 680px;
+  bottom: 150px;
+  cursor: pointer;
+}
+
+.status
+{
+  position: absolute;
+  left: 700px;
+  bottom:210px;
+}
+.p_s
+{
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  padding-right: 650px;
+  padding-top: 50px;
+
+
+}
+.p_ss
+{
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 25px;
+  color: white;
+
+}
+.btn_n
+{
+  position: fixed;
+  right:50px;
+  bottom:10px;
+  background-color:#8CC461 ; 
+  border: 1px solid ;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.us_pic
+{
+  color: white;
+  font-family: Roboto;
+  font-weight: 500;
+  position: absolute;
+  top: 350px;
+  left: 415px;
+  font-size: 25px;
+}
+.pc_pic
+{
+  color: white;
+  font-family: Roboto;
+  font-weight: 500;
+  position: absolute;
+  top: 350px;
+  right:420px;
+  font-size: 25px;
+}
+
+
+/* Add transition for winner and loser */
+.rock, .paper, .scissors {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Add animation for winner */
+.winner-animation {
+  transform: scale(1.2);
+}
+
+/* Add animation for loser */
+.loser-animation {
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
